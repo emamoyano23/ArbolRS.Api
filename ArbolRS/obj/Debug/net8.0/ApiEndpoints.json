@@ -1,0 +1,402 @@
+[
+  {
+    "ContainingType": "ArbolRS.Controllers.AlturaController",
+    "Method": "Search",
+    "RelativePath": "api/v1/altura/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Altura, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AlturaController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/altura/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Altura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AlturaController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/altura/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Altura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AlturaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/altura/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Altura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AlturaController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/altura/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Altura",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AnchoController",
+    "Method": "Search",
+    "RelativePath": "api/v1/ancho/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Ancho, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AnchoController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/ancho/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Ancho",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AnchoController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/ancho/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Ancho",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AnchoController",
+    "Method": "Create",
+    "RelativePath": "api/v1/ancho/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Ancho",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.AnchoController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/ancho/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Ancho",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.CazuelaController",
+    "Method": "Search",
+    "RelativePath": "api/v1/cazuela/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Cazuela, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.CazuelaController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/cazuela/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Cazuela",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.CazuelaController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/cazuela/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Cazuela",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.CazuelaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/cazuela/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Cazuela",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.CazuelaController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/cazuela/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Cazuela",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.NombreArbolController",
+    "Method": "Search",
+    "RelativePath": "api/v1/nombrearbol/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.NombreArbol, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.NombreArbolController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/nombrearbol/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.NombreArbol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.NombreArbolController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/nombrearbol/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.NombreArbol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.NombreArbolController",
+    "Method": "Create",
+    "RelativePath": "api/v1/nombrearbol/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.NombreArbol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.NombreArbolController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/nombrearbol/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.NombreArbol",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

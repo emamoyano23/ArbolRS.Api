@@ -1,0 +1,6 @@
+@ArbolRS_HostAddress = http://localhost:5016
+
+GET {{ArbolRS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
