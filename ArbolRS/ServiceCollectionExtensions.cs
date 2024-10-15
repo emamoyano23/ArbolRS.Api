@@ -12,6 +12,9 @@ namespace ArbolRS
             services.AddScoped<IAncho, AnchoServices>();
             services.AddScoped<INombreArbol, NombreArbolServices>();
             services.AddScoped<ICazuela, CazuelaServices>();
+            services.AddScoped<ITipoLugar, TipoLugarServices>();
+            services.AddScoped<ITipoRelevamiento, TipoRelevamientoServices>();
+            services.AddScoped<IEstadoFitosanitario,EstadoFitosanitarioServices>();
         }
     }
 }

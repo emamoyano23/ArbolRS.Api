@@ -300,6 +300,106 @@
     ]
   },
   {
+    "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
+    "Method": "Search",
+    "RelativePath": "api/v1/estadofitosanitario/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.EstadoFitosanitario, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/estadofitosanitario/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.EstadoFitosanitario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/estadofitosanitario/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.EstadoFitosanitario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
+    "Method": "Create",
+    "RelativePath": "api/v1/estadofitosanitario/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.EstadoFitosanitario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/estadofitosanitario/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.EstadoFitosanitario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ArbolRS.Controllers.NombreArbolController",
     "Method": "Search",
     "RelativePath": "api/v1/nombrearbol/buscar",
@@ -390,6 +490,206 @@
     "ReturnTypes": [
       {
         "Type": "ArbolRS.Entity.NombreArbol",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoLugarController",
+    "Method": "Search",
+    "RelativePath": "api/v1/tipolugar/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.TipoLugar, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoLugarController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/tipolugar/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoLugar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoLugarController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/tipolugar/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoLugar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoLugarController",
+    "Method": "Create",
+    "RelativePath": "api/v1/tipolugar/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoLugar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoLugarController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/tipolugar/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.TipoLugar",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoRelevamientoController",
+    "Method": "Search",
+    "RelativePath": "api/v1/tiporelevamiento/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.TipoRelevamiento, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoRelevamientoController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/tiporelevamiento/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoRelevamiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoRelevamientoController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/tiporelevamiento/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoRelevamiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoRelevamientoController",
+    "Method": "Create",
+    "RelativePath": "api/v1/tiporelevamiento/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.TipoRelevamiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.TipoRelevamientoController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/tiporelevamiento/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.TipoRelevamiento",
         "MediaTypes": [
           "text/plain",
           "application/json",
