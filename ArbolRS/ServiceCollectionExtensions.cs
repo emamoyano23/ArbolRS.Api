@@ -15,6 +15,17 @@ namespace ArbolRS
             services.AddScoped<ITipoLugar, TipoLugarServices>();
             services.AddScoped<ITipoRelevamiento, TipoRelevamientoServices>();
             services.AddScoped<IEstadoFitosanitario,EstadoFitosanitarioServices>();
+            services.AddScoped<IEdad, EdadServices>();
+            services.AddScoped<IFaseVital, FaseVitalServices>();
+            services.AddScoped<IInclinacion, InclinacionServices>();
+            services.AddScoped<IArbol, ArbolServices>();
+            services.AddScoped<IInfoGeneral, InfoGeneralServices>();
+            services.AddScoped<IInfoAvanzada, InfoAvanzadaServices>();
+
+
+
+
+
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArbolRS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+597d4adafb641561c2d04f1d11e4bf0c4bdc33c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c509c73d9be0dd76d2771354554bdffa3f9562d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArbolRS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArbolRS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

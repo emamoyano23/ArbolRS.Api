@@ -300,6 +300,106 @@
     ]
   },
   {
+    "ContainingType": "ArbolRS.Controllers.EdadController",
+    "Method": "Search",
+    "RelativePath": "api/v1/edad/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Edad, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EdadController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/edad/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Edad",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EdadController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/edad/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Edad",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EdadController",
+    "Method": "Create",
+    "RelativePath": "api/v1/edad/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Edad",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.EdadController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/edad/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Edad",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ArbolRS.Controllers.EstadoFitosanitarioController",
     "Method": "Search",
     "RelativePath": "api/v1/estadofitosanitario/buscar",
@@ -390,6 +490,406 @@
     "ReturnTypes": [
       {
         "Type": "ArbolRS.Entity.EstadoFitosanitario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.FaseVitalController",
+    "Method": "Search",
+    "RelativePath": "api/v1/fasevital/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.FaseVital, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.FaseVitalController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/fasevital/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.FaseVital",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.FaseVitalController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/fasevital/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.FaseVital",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.FaseVitalController",
+    "Method": "Create",
+    "RelativePath": "api/v1/fasevital/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.FaseVital",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.FaseVitalController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/fasevital/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.FaseVital",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InclinacionController",
+    "Method": "Search",
+    "RelativePath": "api/v1/inclinacion/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Inclinacion, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InclinacionController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/inclinacion/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Inclinacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InclinacionController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/inclinacion/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Inclinacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InclinacionController",
+    "Method": "Create",
+    "RelativePath": "api/v1/inclinacion/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.Inclinacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InclinacionController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/inclinacion/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Inclinacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoAvanzadaController",
+    "Method": "Search",
+    "RelativePath": "api/v1/infoavanzada/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.InfoAvanzada, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoAvanzadaController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/infoavanzada/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoAvanzada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoAvanzadaController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/infoavanzada/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoAvanzada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoAvanzadaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/infoavanzada/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoAvanzada",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoAvanzadaController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/infoavanzada/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.InfoAvanzada",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoGeneralController",
+    "Method": "Search",
+    "RelativePath": "api/v1/infogeneral/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.InfoGeneral, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoGeneralController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/infogeneral/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoGeneral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoGeneralController",
+    "Method": "Disable",
+    "RelativePath": "api/v1/infogeneral/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoGeneral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoGeneralController",
+    "Method": "Create",
+    "RelativePath": "api/v1/infogeneral/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "ArbolRS.Entity.InfoGeneral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.InfoGeneralController",
+    "Method": "TakeId",
+    "RelativePath": "api/v1/infogeneral/id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.InfoGeneral",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -690,6 +1190,226 @@
     "ReturnTypes": [
       {
         "Type": "ArbolRS.Entity.TipoRelevamiento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.ArbolController",
+    "Method": "Search",
+    "RelativePath": "buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArbolRS.Entity.Arbol, ArbolRS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.ArbolController",
+    "Method": "Edit",
+    "RelativePath": "editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AlturaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnchoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EdadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArbolHistorico",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "InfoGeneralId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.ArbolController",
+    "Method": "Disable",
+    "RelativePath": "eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AlturaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnchoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EdadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArbolHistorico",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "InfoGeneralId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.ArbolController",
+    "Method": "Create",
+    "RelativePath": "guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AlturaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AnchoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EdadId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArbolHistorico",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "InfoGeneralId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "link",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArbolRS.Controllers.ArbolController",
+    "Method": "TakeId",
+    "RelativePath": "id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArbolRS.Entity.Arbol",
         "MediaTypes": [
           "text/plain",
           "application/json",

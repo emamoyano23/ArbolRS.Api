@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ema-Moyano\\Documents\\GitHub\\ArbolRS.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C824B45F-4B58-4FA1-BDD4-68A78CE4CDA7}|ArbolRS\\ArbolRS.csproj|c:\\users\\ema-moyano\\documents\\github\\arbolrs.api\\arbolrs\\logic\\alturalogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C824B45F-4B58-4FA1-BDD4-68A78CE4CDA7}|ArbolRS\\ArbolRS.csproj|solutionrelative:arbolrs\\logic\\alturalogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlturaLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Ema-Moyano\\Documents\\GitHub\\ArbolRS.Api\\ArbolRS\\Logic\\AlturaLogic.cs",
+              "RelativeDocumentMoniker": "ArbolRS\\Logic\\AlturaLogic.cs",
+              "ToolTip": "C:\\Users\\Ema-Moyano\\Documents\\GitHub\\ArbolRS.Api\\ArbolRS\\Logic\\AlturaLogic.cs",
+              "RelativeToolTip": "ArbolRS\\Logic\\AlturaLogic.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:52:19.638Z",
+              "EditorCaption": ""
             }
           ]
         },
