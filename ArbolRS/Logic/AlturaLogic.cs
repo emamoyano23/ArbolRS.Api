@@ -8,7 +8,7 @@ namespace ArbolRS.Logic
         Task<int> Save(Altura altura);
         Task Disable(Altura altura);
         Task<Altura> GetAltura(int id);
-        Task<IEnumerable<Altura>> LstAltura(string search);
+        Task<List<Altura>> LstAltura(string search);
     }
     public class AlturaLogic : IAlturaLogic
     {
@@ -54,13 +54,15 @@ namespace ArbolRS.Logic
             return await _altura.GetAltura(Id);
         }
 
-        public async Task<IEnumerable<Altura>> LstAltura(string search)
+        public async Task<List<Altura>> LstAltura(string search)
         {
             return await _altura.LstAltura(search);
         }
 
         public async Task Disable(Altura altura)
         {
+            var existe = _altura.GetAltura(altura.Id);
+            if (existe == null)
             await _altura.Disable(altura);
         }
 

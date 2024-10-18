@@ -16,6 +16,7 @@ namespace ArbolRS.Entity
         public int DireccionId { get; set; }
         public int AlturaDireccion { get; set; }
         public bool retiroVerde { get; set; }
+        public int arbolId { get; set; }
         public bool activo { get; set; }
         public string link { get { return $"{access}/{Id}"; } set { } }
         public static string access { get; set; }

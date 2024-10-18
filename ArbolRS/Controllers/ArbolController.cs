@@ -1,10 +1,11 @@
-﻿using ArbolRS.Data;
+﻿using ArbolRS.Code;
+using ArbolRS.Data;
 using ArbolRS.Entity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ArbolRS.Controllers
 {
-    public class ArbolController : Controller
+    public class ArbolController : ArbolControllerBase
     {
         private readonly IArbol _ServicioApi;
         public ArbolController(IArbol servicio)
@@ -31,7 +32,7 @@ namespace ArbolRS.Controllers
         public async Task<ActionResult> Create(Arbol modelo)
         {
             var altura = await _ServicioApi.Create(modelo);
-            return Ok();
+            return Ok(altura);
         }
         [HttpPut]
         [Route("editar")]

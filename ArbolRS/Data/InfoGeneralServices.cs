@@ -64,7 +64,7 @@ namespace ArbolRS.Data
             {
                 using (var sql = Connect.Sql())
                 {
-                    id = await sql.QuerySingleAsync<int>(@"insert into InfoGeneral values (@UserId, @tipoRelevamientoId, @nombre, @tipoLugarId, @DireccionId, @AlturaDireccion, @retiroVerde, @activo);select scope_identity();", infogeneral);
+                    id = await sql.QuerySingleAsync<int>(@"insert into InfoGeneral values (@UserId, @tipoRelevamientoId, @nombre, @tipoLugarId, @DireccionId, @AlturaDireccion, @retiroVerde, @arbolId, @activo);select scope_identity();", infogeneral);
                 }
             }
             catch (Exception)
@@ -94,7 +94,7 @@ namespace ArbolRS.Data
             {
                 using (var sql = Connect.Sql())
                 {
-                    await sql.ExecuteAsync(@"update InfoGeneral set UserId = @UserId, tipoRelevamientoId = @tipoRelevamientoId, nombre = @nombre, tipoLugarId = @tipoLugarId, DireccionId = @DireccionId, AlturaDireccion = @AlturaDireccion, retiroVerde = @retiroVerde, activo = @activo where Id = @Id", infogeneral);
+                    await sql.ExecuteAsync(@"update InfoGeneral set UserId = @UserId, tipoRelevamientoId = @tipoRelevamientoId, nombre = @nombre, tipoLugarId = @tipoLugarId, DireccionId = @DireccionId, AlturaDireccion = @AlturaDireccion, retiroVerde = @retiroVerde, arbolId = @arbolId, activo = @activo where Id = @Id", infogeneral);
                 }
             }
             catch (Exception)

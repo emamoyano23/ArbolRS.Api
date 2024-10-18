@@ -31,7 +31,7 @@ namespace ArbolRS.Controllers
         public async Task<ActionResult> Create(Edad modelo)
         {
             var altura = await _ServicioApi.Create(modelo);
-            return Ok();
+            return Ok(altura);
         }
         [HttpPut]
         [Route("editar")]
